@@ -1,5 +1,4 @@
 #!/bin/bash
-git clone https://github.com/misant/stepic_web.git /home/box/web
 sudo unlink /etc/nginx/sites-enabled/default
 sudo ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
 sudo /etc/init.d/nginx restart
